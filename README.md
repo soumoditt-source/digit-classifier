@@ -1,11 +1,9 @@
-# digit-classifier
-Handwritten Digit Classifier  (MNIST) - Tensorflow / fallback included
-# Digit Classifier (MNIST)
+# Handwritten Digit Classifier (Deep Learning with TensorFlow)
 
-A simple handwritten digit classifier built with **TensorFlow/Keras** using the MNIST dataset.  
-Includes training script, requirements, and sample output images.
+Classifies handwritten digits (0–9) from the **MNIST dataset** using TensorFlow/Keras.
 
-## Steps to Run (Recommended: Google Colab)
-1. Install dependencies:
-   ```bash
-   pip install tensorflow matplotlib numpy
+## Run
+```bash
+pip install -r requirements.txt
+python digit_classifier.py
+```
